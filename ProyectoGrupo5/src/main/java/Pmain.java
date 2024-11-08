@@ -4,10 +4,13 @@
  */
 
 public class Pmain {
-    public static void pmain(String[] args) {
-        SubDoctor Doctor = new SubDoctor("Pedro", 45, "Cardiologia");
-        Doctor.Saludar();
-        Doctor.MostrarInfo();
-    }//
+    public static void main(String[] args) {
+        SubDoctor doctor = new SubDoctor("Pedro", 45, "Cardiología");
+        doctor.Saludar();
+        doctor.MostrarInfo();
+        
+        SubDeportista deportista = new SubDeportista("Carlos", 30, "Fútbol");
+        deportista.Saludar();
+        deportista.MostrarInfo();
+    }
 }
-
