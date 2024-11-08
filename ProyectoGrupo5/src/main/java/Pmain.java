@@ -8,6 +8,6 @@ public class PMain {
         SubDoctor Doctor = new SubDoctor("Pedro", 45, "Cardiologia");
         Doctor.Saludar();
         Doctor.MostrarInfo();
-    }
+    }//
 }
 
