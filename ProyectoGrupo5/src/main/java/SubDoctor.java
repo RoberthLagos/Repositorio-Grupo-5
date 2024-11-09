@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
+//Auto: Jorly Rigoberto Lagos Sanchez
 public class SubDoctor extends SCPersona {
     private String Especialidad;
 
