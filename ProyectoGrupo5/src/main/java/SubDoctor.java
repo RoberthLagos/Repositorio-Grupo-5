@@ -6,25 +6,21 @@
 public class SubDoctor extends SCPersona {
     private String Especialidad;
 
-    // Constructor de la clase Doctor que llama al constructor de SCPersona
     public SubDoctor(String Nombre, int Edad, String Especialidad) {
-        super(Nombre, Edad);  // Llama al constructor de SCPersona
+        super(Nombre, Edad);
         this.Especialidad = Especialidad;
     }
 
-    // Método para mostrar la especialidad junto con la información básica
     @Override
     public void MostrarInfo() {
-        super.MostrarInfo();  // Llama a MostrarInfo de SCPersona
+        super.MostrarInfo();
         System.out.println("Especialidad: " + Especialidad);
     }
 
-    // Getter para la especialidad
     public String GetEspecialidad() {
         return Especialidad;
     }
 
-    // Setter para la especialidad
     public void SetEspecialidad(String Especialidad) {
         this.Especialidad = Especialidad;
     }
