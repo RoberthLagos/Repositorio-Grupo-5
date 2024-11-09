@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 
-//Autor: Jorly Rigoberto Lagos Sanchez
+//Autor: Roberth Joel Lagos Sanchez
 public class Pmain {
     public static void main(String[] args) {
         SubDoctor doctor = new SubDoctor("Pedro", 45, "Cardiologia");
