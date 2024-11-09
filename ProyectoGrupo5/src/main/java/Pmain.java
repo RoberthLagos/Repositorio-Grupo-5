@@ -3,13 +3,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 
+//Autor: Jorly Rigoberto Lagos Sanchez
 public class Pmain {
     public static void main(String[] args) {
-        SubDoctor doctor = new SubDoctor("Pedro", 45, "Cardiología");
+        SubDoctor doctor = new SubDoctor("Pedro", 45, "Cardiologia");
         doctor.Saludar();
         doctor.MostrarInfo();
         
-        SubDeportista deportista = new SubDeportista("Carlos", 30, "Fútbol");
+        SubDeportista deportista = new SubDeportista("Carlos", 30, "Futbol");
         deportista.Saludar();
         deportista.MostrarInfo();
     }
